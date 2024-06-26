@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
+
+body,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  font-family: "Rubik", sans-serif;
+  padding: 20px;
+  display: flex;
+}
+
+.left-section {
+  width: 983px;
+  border-radius: 40px 0px 0px 40px;
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.right-section {
+  width: 326px;
+  padding: 50px 10px 0 10px;
+}
+
+.rectangle {
+  height: 75px;
+  width: 100%;
+  background-color: #fc8b40;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.game-list.most-popular {
+  gap: 15px;
+}

@@ -1,0 +1,11 @@
+.avatar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

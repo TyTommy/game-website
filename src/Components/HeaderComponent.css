@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+}
+
+.menu-item {
+  margin: 0 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #a0a8b1;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.menu-item:hover {
+  background-color: #e9ecef;
+}
+
+.menu-item.active {
+  background-color: #ff7b47;
+  color: white;
+  border-radius: 5px;
+}

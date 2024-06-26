@@ -1,0 +1,42 @@
+.game-ad-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+.game-ad-card .h1 {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.game-ad-card .category {
+  color: #9da1b4;
+  font-size: 18px;
+}
+
+.game-ad-card .rating {
+  color: #22283c;
+  font-size: 12px;
+}
+
+.game-ad-card .description {
+  margin-top: 12px;
+  color: #9da1b4;
+  font-size: 14px;
+}
+
+.game-ad-card .download-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #ff7b47;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 17px;
+  box-shadow: 0px 2px 8px 0px #cacddb6b;
+}
